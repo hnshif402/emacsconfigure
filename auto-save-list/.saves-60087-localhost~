@@ -1,0 +1,6 @@
+/home/shifeng/deploy/roles/probebin/tasks/worker.yml
+/home/shifeng/deploy/roles/probebin/tasks/#worker.yml#
+/home/shifeng/deploy/roles/probebin/tasks/main.yml
+/home/shifeng/deploy/roles/probebin/tasks/#main.yml#
+/home/shifeng/deploy/roles/mongod/tasks/worker.yml
+/home/shifeng/deploy/roles/mongod/tasks/#worker.yml#

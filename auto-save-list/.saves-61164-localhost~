@@ -1,0 +1,12 @@
+/home/shifeng/deploy/roles/mtservice/tasks/main.yml
+/home/shifeng/deploy/roles/mtservice/tasks/#main.yml#
+/home/shifeng/deploy/roles/mtservice/templates/cti.cfg.j2
+/home/shifeng/deploy/roles/mtservice/templates/#cti.cfg.j2#
+/home/shifeng/deploy/mtserver.yml
+/home/shifeng/deploy/#mtserver.yml#
+/home/shifeng/deploy/group_vars/all
+/home/shifeng/deploy/group_vars/#all#
+/home/shifeng/deploy/vars_files/mongod_para.yml
+/home/shifeng/deploy/vars_files/#mongod_para.yml#
+/home/shifeng/deploy/roles/mtservice/templates/probeIps.cfg.j2
+/home/shifeng/deploy/roles/mtservice/templates/#probeIps.cfg.j2#

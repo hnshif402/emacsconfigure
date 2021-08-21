@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ package-list-packages
+ helm-projectile
+ projectile-switch-project
+ helm-projectile-find-file
+ cd
+ 5x5
+ arp
+)
+
+;; ----- smex-data -----
+(
+ (package-list-packages . 5)
+ (helm-projectile . 4)
+ (helm-projectile-find-file . 1)
+ (projectile-switch-project . 1)
+)

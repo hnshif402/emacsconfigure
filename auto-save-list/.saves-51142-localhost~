@@ -1,0 +1,10 @@
+/home/shifeng/deploy/vars_files/xdrcomposer_para.yml
+/home/shifeng/deploy/vars_files/#xdrcomposer_para.yml#
+/home/shifeng/deploy/roles/configcenter/templates/kpi_business.properties.j2
+/home/shifeng/deploy/roles/configcenter/templates/#kpi_business.properties.j2#
+/home/shifeng/deploy/roles/configcenter/tasks/main.yml
+/home/shifeng/deploy/roles/configcenter/tasks/#main.yml#
+/home/shifeng/deploy/group_vars/all
+/home/shifeng/deploy/group_vars/#all#
+/home/shifeng/deploy/roles/configcenter/templates/bigxdr_business.properties.j2
+/home/shifeng/deploy/roles/configcenter/templates/#bigxdr_business.properties.j2#

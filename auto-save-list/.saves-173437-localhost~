@@ -1,0 +1,12 @@
+/home/shifeng/deploy/roles/samba/tasks/main.yml
+/home/shifeng/deploy/roles/samba/tasks/#main.yml#
+/home/shifeng/deploy/samba.yml
+/home/shifeng/deploy/#samba.yml#
+/home/shifeng/deploy/vars_files/probebin_para.yml
+/home/shifeng/deploy/vars_files/#probebin_para.yml#
+/home/shifeng/deploy/probebin.yml
+/home/shifeng/deploy/#probebin.yml#
+/home/shifeng/deploy/roles/probebin/tasks/worker.yml
+/home/shifeng/deploy/roles/probebin/tasks/#worker.yml#
+/home/shifeng/deploy/roles/probebin/tasks/main.yml
+/home/shifeng/deploy/roles/probebin/tasks/#main.yml#
