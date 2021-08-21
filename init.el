@@ -29,7 +29,7 @@
  '(custom-safe-themes
    '("d9646b131c4aa37f01f909fbdd5a9099389518eb68f25277ed19ba99adeb7279" default))
  '(package-selected-packages
-   '(ggtags helm-gtags helm-projectile ace-window company-ansible company-anaconda flycheck highlight-indentation anaconda-mode yaml-mode smex smartparens popwin popup monokai-theme hungry-delete counsel company-math company-c-headers)))
+   '(yaml ggtags helm-gtags helm-projectile ace-window company-ansible company-anaconda flycheck highlight-indentation anaconda-mode yaml-mode smex smartparens popwin popup monokai-theme hungry-delete counsel company-math company-c-headers)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -100,6 +100,8 @@
 ;; turn on hight light line
 (global-hl-line-mode t)
 
+;; turn off scroll bar
+(scroll-bar-mode -1)
 (popwin-mode t)
 
 
@@ -192,6 +194,14 @@
 (setq projectile-completion-system 'helm)
 (helm-projectile-on)
 (setq projectile-enable-caching t)
-
 ;; set ggtags on
 (ggtags-mode 1)
+;; hide tool-bar
+(tool-bar-mode 0)
+;; hide menu bar
+(menu-bar-mode 0)
+;; inhibit splash screen
+(setq inhibit-splash-screen t)
+
+;; maximize window
+(add-to-list 'default-frame-alist '(fullscreen . maximized))

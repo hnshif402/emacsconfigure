@@ -1,1 +1,1 @@
-("~/linux-2.6.11.12/" "~/linux-2.6.11.12/kernel/" "~/.emacs.d/" "~/deploy/")
+("~/.emacs.d/")
