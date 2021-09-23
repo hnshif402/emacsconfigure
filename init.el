@@ -205,3 +205,21 @@
 
 ;; maximize window
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+;; enable ggtags
+(add-hook 'c-mode-common-hook
+	  (lambda()
+	    (when (derived-mode-p 'c-mode 'c++-mode 'java-mode)
+	      (ggtags-mode 1))))
+
+
+;; enable projectile
+(projectile-mode t)
+
+;; set projectile-project-search-path
+(setq projectile-project-search-path '("/home/shifeng/"))
+
+;; set key map for projectile
+(with-eval-after-load 'projectile
+  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map))
+
