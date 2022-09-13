@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- customize
+ rectangle-number-lines
+ projectile-invalidate-cache
+ comment-or-uncomment-region
+ projectile-regenerate-tags
  customize-group
- package-list-packages
- helm-projectile
- projectile-switch-project
- helm-projectile-find-file
- cd
+ projectile-discover-projects-in-search-path
+ shell
 )
 
 ;; ----- smex-data -----
@@ -16,6 +16,16 @@
  (helm-projectile . 4)
  (helm-projectile-find-file . 1)
  (projectile-switch-project . 1)
- (customize-group . 1)
+ (customize-group . 6)
  (customize . 1)
+ (shell . 17)
+ (company-etags . 1)
+ (company-gtags . 6)
+ (ggtags-grep . 1)
+ (ggtags-find-tag-dwim . 1)
+ (projectile-discover-projects-in-search-path . 4)
+ (projectile-regenerate-tags . 1)
+ (comment-or-uncomment-region . 6)
+ (projectile-invalidate-cache . 1)
+ (rectangle-number-lines . 1)
 )

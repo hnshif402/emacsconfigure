@@ -2,7 +2,7 @@
 (package-initialize)
 
 ;; load path
-(add-to-list 'load-path "/home/shifeng/.emacs.d/lisp/")
+(add-to-list 'load-path "/home/shife/.emacs.d/lisp/")
 ;; set c mode indent
 ;;(add-hook 'c-mode-common-hook (lambda ()
 ;;      (local-set-key (kbd "RET") 'newline-and-indent)))
@@ -24,12 +24,17 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(company-backends
+   '(company-ansible company-anaconda company-c-headers company-bbdb company-eclim company-semantic company-clang company-xcode company-cmake company-capf company-elisp
+		     (company-etags company-gtags company-files company-keywords)
+		     company-oddmuse company-dabbrev))
  '(company-idle-delay 0.08)
  '(company-minimum-prefix-length 1)
+ '(company-show-numbers ''t)
  '(custom-safe-themes
    '("d9646b131c4aa37f01f909fbdd5a9099389518eb68f25277ed19ba99adeb7279" default))
  '(package-selected-packages
-   '(yaml ggtags helm-gtags helm-projectile ace-window company-ansible company-anaconda flycheck highlight-indentation anaconda-mode yaml-mode smex smartparens popwin popup monokai-theme hungry-delete counsel company-math company-c-headers)))
+   '(helm-ag yaml ggtags helm-gtags helm-projectile ace-window company-ansible company-anaconda flycheck highlight-indentation anaconda-mode yaml-mode smex smartparens popwin popup monokai-theme hungry-delete counsel company-math company-c-headers)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -217,7 +222,7 @@
 (projectile-mode t)
 
 ;; set projectile-project-search-path
-(setq projectile-project-search-path '("/home/shifeng/"))
+(setq projectile-project-search-path '("/home/shife/"))
 
 ;; set key map for projectile
 (with-eval-after-load 'projectile

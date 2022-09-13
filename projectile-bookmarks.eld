@@ -1,1 +1,1 @@
-("~/.emacs.d/")
+("~/.emacs.d/" "~/MIT_6.828/xv6-labs-2021/" "~/LLD/" "~/crash/")
